@@ -1,0 +1,19 @@
+﻿@Html.Partial("_PartialHeader")
+<link href="~/Content/CSS/Styles/Countries/index.css" rel="stylesheet"/>
+<script src="~/Scripts/UserScripts/Services/LocationService.js"></script>
+<script src="~/Scripts/UserScripts/Controllers/LocationCtrl.js"></script>
+<div ng-controller="LocationCtrl as locCtrl">
+    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 containerMain">
+        <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-xs-3 col-md-3 col-sm-3">
+                <input class="text form-control" ng-model="locCtrl.country" placeholder="Country..." />
+            </div>
+            <div class="col-lg-3 col-xs-3 col-md-3 col-sm-3">
+                <input class="text form-control" ng-model="locCtrl.city" placeholder="City..." />
+            </div>
+        </div>
+        <button ng-click="locCtrl.saveCountry()" class="btn">Save Country</button>
+        <button ng-click="locCtrl.saveCity()" class="btn">Save City</button>
+    </div>
+</div>
+@Html.Partial("_PartialFooter")         
