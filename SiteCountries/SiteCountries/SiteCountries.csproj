@@ -117,7 +117,9 @@
     <Content Include="Content\CSS\libs\bootstrap-theme.min.css" />
     <Content Include="Content\CSS\libs\bootstrap.css" />
     <Content Include="Content\CSS\libs\bootstrap.min.css" />
+    <Content Include="Content\CSS\Styles\Countries\index.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\favicon.ico-16x16-i11.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\angular-mocks.js" />
     <None Include="Scripts\angular.intellisense.js" />

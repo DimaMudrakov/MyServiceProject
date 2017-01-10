@@ -12,8 +12,8 @@
                 <input class="text form-control" ng-model="locCtrl.city" placeholder="City..." />
             </div>
         </div>
-        <button ng-click="locCtrl.saveCountry()" class="btn">Save Country</button>
-        <button ng-click="locCtrl.saveCity()" class="btn">Save City</button>
+        <button ng-click="locCtrl.saveCountry()" ng-disabled="locCtrl.country == null ||  locCtrl.country == ''" class="btn">Save Country</button>
+        <button ng-click="locCtrl.saveCity()" ng-disabled="locCtrl.city == null ||  locCtrl.city == ''"  class="btn">Save City</button>
     </div>
 </div>
 @Html.Partial("_PartialFooter")         
