@@ -8,5 +8,6 @@ namespace SiteCountries.Repository.Abstract
 {
     public interface ICountriesRepository
     {
+        void AddCountry(string countrie);
     }
 }

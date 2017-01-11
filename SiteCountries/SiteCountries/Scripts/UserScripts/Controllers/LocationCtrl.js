@@ -4,15 +4,13 @@
     var vm = this;
 
     vm.saveCountry = function () {
-        debugger;
         LocationService.saveCountry(vm.country)
             .then(function (data) {
-                    debugger;
-                    alert(data);
+                    alert(data.Message);
                 },
-                function(data) {
-                    alert( vm.country + ' The country is not added');
-                    console.log(data);
+                function (data) {
+                    alert(data.Message);
+                    console.log(data.ExceptionMessage);
                 });
     }
 }]);

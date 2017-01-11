@@ -121,10 +121,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\favicon.ico-16x16-i11.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\angular-mocks.js" />
-    <None Include="Scripts\angular.intellisense.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
+    <None Include="Scripts\libs\AngularJS\angular.intellisense.js" />
     <Content Include="Scripts\libs\BootStrap\bootstrap.js" />
     <Content Include="Scripts\libs\BootStrap\bootstrap.min.js" />
     <Content Include="Scripts\libs\AngularJS\angular-animate.js" />
@@ -182,14 +179,13 @@
     <Content Include="Models\Countries.edmx.diagram">
       <DependentUpon>Countries.edmx</DependentUpon>
     </Content>
-    <Content Include="Scripts\angular.min.js.map" />
     <None Include="Scripts\libs\Jquery\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\libs\Jquery\jquery-3.1.1.js" />
     <Content Include="Scripts\libs\Jquery\jquery-3.1.1.min.js" />
     <Content Include="Scripts\libs\Jquery\jquery-3.1.1.slim.js" />
     <Content Include="Scripts\libs\Jquery\jquery-3.1.1.slim.min.js" />
     <Content Include="Scripts\UserScripts\Controllers\LocationCtrl.js" />
-    <None Include="Scripts\_references.js" />
+    <None Include="Scripts\libs\AngularJS\_references.js" />
     <Content Include="Scripts\UserScripts\Services\LocationService.js" />
     <Content Include="Web.config" />
   </ItemGroup>
