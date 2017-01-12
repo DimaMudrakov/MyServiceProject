@@ -206,6 +206,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Abstract\ICountriesRepository.cs" />
     <Compile Include="Repository\Implementation\CountriesRepository.cs" />
+    <Compile Include="Utils\ResponseHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

@@ -6,9 +6,9 @@ using System.Web;
 
 namespace SiteCountries.Utils
 {
-    public static class ResponseHandler : HttpResponseMessage
+    public class ResponseHandler
     {
-        public static string Message { get; set; }
-        public static string ExceptionMessage { get; set; }
+        public string Message { get; set; }
+        public string ExceptionMessage { get; set; }
     }
 }
